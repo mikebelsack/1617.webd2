@@ -1,0 +1,71 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>Eindwerk</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="header-content">
+                <div id="header-logo">
+                    <img src="img/MACK_Logo.png">
+                </div>
+            <nav id="header-nav" role="navigation">
+                <span class="nav-btn"><img src="img/MACK_Logo.png"></span>
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="over.html">Over ons</a></li>
+                    <li><a href="diensten.html">Diensten</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+                <script>$('span.nav-btn').click(function (){
+                    $('ul.nav').toggle();
+                    })
+                    
+                    $(window).resize(function (){
+                        if($(window).width()>768){
+                            $('ul.nav').removeAttr('style');
+                        }
+                    })
+                </script>
+            </div>
+        </header>
+        
+        <div id="midden">
+            <div id="content">
+                <div class="wrapper">
+                    <div class="box box1"></div>
+                    <div class="box box2"></div>
+                    <div class="box box3"></div>
+                    <div class="box box4"></div>
+                    <div class="box box5"></div>
+                    <a href="detail.html"><div class="box box6"></div></a>
+                    <div class="box box7"></div>
+                    <div class="box box8"></div>
+                    <div class="box box9"></div>
+                    <div class="box box10"></div>
+                    <div class="box box11"></div>
+                    <div class="box box12"></div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <div id="footer-content">
+                <p>Eindopdracht Webdesign II ©Mike Belsack</p>
+                <div id="footer-icons">
+                    <a href="https://www.facebook.com/mike.belsack"><img src="img/facebook.png"></a>
+                    <a href="https://twitter.com/BelsackMike"><img src="img/twitter.png"></a>
+                    <a href="https://www.instagram.com/mikebelsack/"><img src="img/instagram.png"></a>
+                    <a href="https://www.pinterest.com/mbelsack/"><img src="img/pinterest.png"></a>
+            </div>
+            </div>
+        </footer>
+    </body>
+</html>
